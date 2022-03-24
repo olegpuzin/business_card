@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Verdana;
+    src: url(font/Verdana-Bold.eot?) format(eot);
+    src: url(fonts/Verdana-Bold.ttf) format(truetype);
+    src: url(fonts/Verdana-Bold.woff) format(woff);
+    font-style: normal;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basic {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    min-height: 300px;
+    box-shadow: 0 0 10px  black; 
+    font-family: Verdana;
+}
+.title {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 220px;
+    background-color: #484848;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 150px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+.box1 {
+    width: 60px;
+    height: 60px;
+    background-color: #fbbe01;
+    border-radius: 50% 50% 0 50%;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #1693cb;
+    border-radius: 50% 50% 50% 0;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 150px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.box3 {
+    width: 80px;
+    height: 80px;
+    background-color: #1693cb;
+    border-radius: 50% 0 50% 50% ;
+}
+.box4 {
+    width: 60px;
+    height: 60px;
+    background-color: #fbbe01;
+    border-radius: 0 50% 50% 50%;
+}
+h1, h2, h3 {
+    color: white;
+}
+h1 {
+   margin-left: 14px;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+.user {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    padding-left: 292px;
+    background-color: #1693cb; 
+    height: 80px;
+}
+.adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 292px;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+    background-color: #1693cb;
+    margin-top: -20px;
+    font-family: 'Coda', cursive;
+    font-size: 18px;
+    color: white;
+}
